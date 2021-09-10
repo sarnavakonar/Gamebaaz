@@ -2,7 +2,7 @@
 ![GitHub license](https://img.shields.io/apm/l/link) [![ktlint](https://img.shields.io/badge/code%20style-%E2%9D%A4-FF4081.svg)](https://ktlint.github.io/) [![GitHub stars](https://img.shields.io/github/stars/sarnavakonar/Gamebaaz?style=social)](https://github.com/sarnavakonar/Gamebaaz/stargazers)
 
 
-A *full-sack application* showing the power 💪 of **KOTLIN**. Entire android app + backend Apis written in **KOTLIN** :fire:
+A *full-stack application* showing the power 💪 of **KOTLIN**. Entire android app + backend Apis written in **KOTLIN** :fire:
 
 Android             |  Backend
 :-------------------------:|:-------------------------:
