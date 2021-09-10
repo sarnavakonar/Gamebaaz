@@ -10,6 +10,10 @@ Android             |  Backend
 <img src="https://i.pcmag.com/imagery/reviews/06fdvkyOgcsc4kzcSqhLmxB-12.1601663115.fit_scale.size_760x427.png" width="100" height="75"> MVVM,Hilt,Coroutines...|  <img src="https://pbs.twimg.com/profile_images/1255113654049128448/J5Yt92WW.png" width="100" height="100"> MySQL DB
 <img src="https://theoriginalprintingcompany.com/wp-content/uploads/2016/08/Z_Blog-entry-Pictures_03.png" width="200" height="120"> | <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--K2q0A5SX--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/2elgd5zp07wkeilkna63.png" width="100" height="100"> Deploy to Heroku 
 
+## The Gamebaaz app itself
+
+![gif](https://i.imgur.com/ryBkSgy.gif)
+
 
 ## 💡 About the Project
 
