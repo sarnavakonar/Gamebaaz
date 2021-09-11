@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.gamebaaz.view.fragments.HomeFragment"
+        android:label="HomeFragment" >
+
+        <action
+            android:id="@+id/action_homeFragment_to_gameDetailFragment"
+            app:destination="@id/gameDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+
+        <action
+            android:id="@+id/action_homeFragment_to_developerFragment"
+            app:destination="@id/developerFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchGameFragment"
+        android:name="com.example.gamebaaz.view.fragments.SearchGameFragment"
+        android:label="SearchGameFragment" >
+
+        <action
+            android:id="@+id/action_searchGameFragment_to_gameDetailFragment"
+            app:destination="@id/gameDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.gamebaaz.view.fragments.ProfileFragment"
+        android:label="ProfileFragment" >
+
+        <action
+            android:id="@+id/action_profileFragment_to_gameDetailFragment"
+            app:destination="@id/gameDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameDetailFragment"
+        android:name="com.example.gamebaaz.view.fragments.GameDetailFragment"
+        android:label="GameDetailFragment" >
+
+        <action
+            android:id="@+id/action_gameDetailFragment_to_developerFragment"
+            app:destination="@id/developerFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+
+        <argument
+            android:name="gameId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/developerFragment"
+        android:name="com.example.gamebaaz.view.fragments.DeveloperFragment"
+        android:label="GamesListFragment" >
+
+        <action
+            android:id="@+id/action_developerFragment_to_gameDetailFragment"
+            app:destination="@id/gameDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+
+        <argument
+            android:name="developer"
+            app:argType="com.example.gamebaaz.model.Developer"
+            android:defaultValue="@null"
+            app:nullable="true" />
+
+    </fragment>
+
+</navigation>

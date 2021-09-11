@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.accompanist:accompanist-glide:0.14.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/308cd963fe2b3b2d886af9e8a4cfb4b7/transformed/jetified-accompanist-glide-0.14.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/308cd963fe2b3b2d886af9e8a4cfb4b7/transformed/jetified-accompanist-glide-0.14.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/308cd963fe2b3b2d886af9e8a4cfb4b7/transformed/jetified-accompanist-glide-0.14.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.accompanist/accompanist-glide/0.14.0/396bef6d4cd26d97dca0e22c09af8cd7f4793291/accompanist-glide-0.14.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.accompanist/accompanist-glide/0.14.0/49e5de97b1a859f422801b349b12a104a3fa319b/accompanist-glide-0.14.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
