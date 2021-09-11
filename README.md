@@ -12,14 +12,13 @@ Android             |  Backend
 
 ## The Gamebaaz app itself
 
-![gif](https://i.imgur.com/ryBkSgy.gif)
-
+<img src="art/Gamebaaz_app.gif" width="300" height="600"/>
 
 ## 💡 About the Project
 
 *This project has 2 components as frontend(mobile) and backend. Details mentioned below -*
 
-## 📱 [Gamebaaz Android App](/noty-api)
+## 📱 [Gamebaaz Android App](/android)
 
 - App UI built 100% with [**Jetpack Compose**](https://developer.android.com/jetpack/compose)
 - *MVVM architecture* with *Livedata, Coroutines, Retrofit, [Accompanist for compose](https://github.com/google/accompanist)*
@@ -28,7 +27,7 @@ Android             |  Backend
 - Bottom navigation view with multiple backstacks 
 - Light/Dark mode support (comes automatically with compose 😍)
 
-## 💻 [Gamebaaz Server Side](/noty-api)
+## 💻 [Gamebaaz Server Side](/server-side)
 
 - *REST APIs* are written in **Kotlin** using [**KTOR**](https://ktor.io/) framework
 - Basic AUTH is used for authentication
