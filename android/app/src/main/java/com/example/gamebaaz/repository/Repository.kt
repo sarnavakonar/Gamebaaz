@@ -14,6 +14,8 @@ class Repository @Inject constructor (
 
     fun getCredentials() = sharedPrefHelper.getCredential()
 
+    fun getUsername() = sharedPrefHelper.getUsername()
+
     fun saveCredentials(
         username: String,
         password: String

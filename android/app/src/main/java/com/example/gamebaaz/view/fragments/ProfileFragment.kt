@@ -128,26 +128,10 @@ class ProfileFragment: Fragment() {
                             )
                             Spacer(modifier = Modifier.height(height = 16.dp))
                             Text(
-                                text = "Sarnava Konar",
+                                text = viewModel.getUsername().toString(),
                                 style = MaterialTheme.typography.body2
                             )
-                            Spacer(modifier = Modifier.height(height = 4.dp))
-                            Text(
-                                text = "Kolkata, India",
-                                style = MaterialTheme.typography.body1.copy(
-                                    color = MaterialTheme.colors.onBackground.copy(alpha = 0.5f),
-                                    fontSize = 14.sp
-                                )
-                            )
-                            Spacer(modifier = Modifier.height(height = 4.dp))
-                            Text(
-                                text = "9748805006",
-                                style = MaterialTheme.typography.body1.copy(
-                                    color = MaterialTheme.colors.onBackground.copy(alpha = 0.5f),
-                                    fontSize = 14.sp
-                                )
-                            )
-                            Spacer(modifier = Modifier.height(height = 32.dp))
+                            Spacer(modifier = Modifier.height(height = 24.dp))
                             Row(
                                 modifier = Modifier
                                     .padding(bottom = 16.dp)
