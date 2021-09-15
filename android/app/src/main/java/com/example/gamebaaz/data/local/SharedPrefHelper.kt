@@ -30,6 +30,11 @@ class SharedPrefHelper @Inject constructor (@ApplicationContext val context: Con
             "$username:$password"
     }
 
+    fun getUsername(): String? {
+        val sharedPreference =  getPreference()
+        return sharedPreference.getString(USERNAME, null)
+    }
+
     private fun getPreference(): SharedPreferences {
         return context.getSharedPreferences("USER_CRED",Context.MODE_PRIVATE)
     }

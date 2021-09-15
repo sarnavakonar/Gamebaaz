@@ -80,6 +80,10 @@ class GameViewModel @Inject constructor (private val repository: Repository): Vi
         return repository.getCredentials()
     }
 
+    fun getUsername(): String? {
+        return repository.getUsername()
+    }
+
     fun setToken() {
         token = "Basic ${Utils.getBase64(getLoginCredentials()!!)}"
     }
