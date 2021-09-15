@@ -25,8 +25,7 @@ class DatabaseManager {
     private val ktormDatabase: Database
 
     init {
-        //val jdbcUrl = "jdbc:mysql://localhost:3306/$databaseName?user=$username&password=$password&useSSL=false"
-        val jdbcUrl = "jdbc:mysql://us-cdbr-east-04.cleardb.com:3306/heroku_70ea6ff4c3e3313?user=b3f8bb58a60d20&password=e83a13d6&useSSL=false"
+	val jdbcUrl = "--- YOUR_DB_CONNECTION_STRING ---"
         ktormDatabase = Database.connect(jdbcUrl)
     }
 
